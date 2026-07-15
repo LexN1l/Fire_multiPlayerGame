@@ -1,7 +1,6 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 using UnrealBuildTool;
-
 public class MultiplayerSessions : ModuleRules
 {
 	public MultiplayerSessions(ReadOnlyTargetRules Target) : base(Target)
@@ -43,6 +42,7 @@ public class MultiplayerSessions : ModuleRules
 				"Engine",
 				"Slate",
 				"SlateCore",
+				"OnlineBase"
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);
